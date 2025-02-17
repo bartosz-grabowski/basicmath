@@ -1,0 +1,21 @@
+[project]
+name = "basicmath"
+version = "0.0.1"
+authors = [
+  { name="Bartosz Grabowski", email="58475557+bartosz-grabowski@users.noreply.github.com" },
+]
+description = "Basic math operations. This repo is for learning purposes."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = {file = "LICENSE"}
+
+[project.urls]
+Homepage = "https://github.com/bartosz-grabowski/basicmath"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
