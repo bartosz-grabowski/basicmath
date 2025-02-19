@@ -12,6 +12,7 @@ description = "Basic math operations. This repo is for learning purposes."
 readme = "README.md"
 dependencies = [
   "pytest",
+  "ruff",
 ]
 requires-python = ">=3.12"
 classifiers = [
