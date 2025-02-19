@@ -5,6 +5,6 @@ from numbers import Number
 
 def subtract(a: Number, b: Number) -> Number:
     """Returns the difference of a & b."""
-    assert isinstance(a, Number)
-    assert isinstance(b, Number)
+    if (not isinstance(a, Number)) or (not isinstance(a, Number)):
+        raise TypeError
     return a-b
