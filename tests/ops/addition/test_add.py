@@ -11,9 +11,9 @@ def test_add_on_numbers():
 
 def test_add_on_string():
     with pytest.raises(TypeError):
-        add('a', 1)
+        add("a", 1)
 
 
 def test_add_on_strings():
     with pytest.raises(TypeError):
-        add('a', 'tt')
+        add("a", "tt")
