@@ -11,9 +11,9 @@ def test_subtract_on_numbers():
 
 def test_subtract_on_string():
     with pytest.raises(TypeError):
-        subtract('a', 1)
+        subtract("a", 1)
 
 
 def test_subtract_on_strings():
     with pytest.raises(TypeError):
-        subtract('a', 'tt')
+        subtract("a", "tt")
