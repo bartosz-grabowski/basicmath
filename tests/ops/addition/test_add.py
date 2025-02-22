@@ -1,6 +1,5 @@
 # Copyright (c) 2025 bartosz-grabowski
 
-import os
 import pytest
 
 from basicmath.ops.addition import add
